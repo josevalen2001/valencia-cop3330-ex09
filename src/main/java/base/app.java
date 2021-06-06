@@ -19,12 +19,12 @@ public class app {
         int width = newScan.nextInt();
 
         //Calculations
-        int area = length * width;
-        double doubleGall = (double)area/350;
+        int areaC = length * width;
+        double doubleGall = (double)areaC/350;
         int numGall = (int)Math.ceil(doubleGall);
 
         //Output
-        System.out.println("You will need to purchase " + numGall + " gallons of paint to cover " + area + " square feet.");
+        System.out.println("You will need to purchase " + numGall + " gallons of paint to cover " + areaC + " square feet.");
 
     }
 
